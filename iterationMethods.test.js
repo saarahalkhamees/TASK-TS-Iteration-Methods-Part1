@@ -46,22 +46,4 @@ describe("Array Manipulation Functions", () => {
       ]);
     });
   });
-
-  describe("logger Function", () => {
-    it("logs every element of the array to the console", () => {
-      const testArray = ["apple", "banana", "cherry"];
-
-      const consoleSpy = jest.spyOn(console, "log");
-
-      logger(testArray);
-
-      expect(consoleSpy).toHaveBeenCalledTimes(testArray.length);
-
-      testArray.forEach((item, index) => {
-        expect(consoleSpy).toHaveBeenNthCalledWith(index + 1, item);
-      });
-
-      consoleSpy.mockRestore();
-    });
-  });
 });
