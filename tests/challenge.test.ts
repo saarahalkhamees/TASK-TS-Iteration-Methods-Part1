@@ -1,16 +1,6 @@
-const {
-  logger,
-  toCelsius,
-  hottestDays,
-  logHottestDays,
-} = require("./iterationMethods.js");
+import { hottestDays, logHottestDays, logger, toCelsius } from "../challenge";
 
-// 🌶️🌶️🌶️ Extra
-/*
-* Remove the "x" from "xdescribe" 👇🏼 
-* to run the challenge tests 
-*/
-xdescribe("Extra Array and String Functions", () => {
+describe("Challenge", () => {
   describe("logger Function", () => {
     it("logs every element of the array to the console", () => {
       const testArray = ["apple", "banana", "cherry"];

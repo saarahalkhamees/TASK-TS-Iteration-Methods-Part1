@@ -1,12 +1,11 @@
-const {
-  greaterThanTwentyFive,
+import {
   divisibleByFive,
-  squaredNumbers,
   doubledNumbers,
   filteredAndSquared,
   filteredAndTripled,
-  logger,
-} = require("./iterationMethods.js");
+  greaterThanTwentyFive,
+  squaredNumbers,
+} from "../iterationMethods.js";
 
 describe("Array Manipulation Functions", () => {
   describe("Filtering Tasks", () => {
