@@ -4,14 +4,26 @@
  */
 const numbers = [10, 13, 20, 25, 38, 35, 40];
 
-// Using `greaterThanTwentyFive` function that returns a new array containing numbers that are greater than or equal to 25.
-function greaterThanTwentyFive(numbers) {
+// `greaterThanTwentyFive` function that:
+// - Accepts "numbers" parameter of type "number[]".
+// - Return a new array containing numbers that are greater than or equal to 25.
+// example:
+// greaterThanTwentyFive(numbers); // => [38, 35, 40]
+function greaterThanTwentyFive(numbers: number[]): number[] {
   // write your code here...
+
+  return []; // replace empty array with what you see is fit
 }
 
-// Using `divisibleByFive` function return a new array containing numbers that are divisible by 5.
-function divisibleByFive(numbers) {
+// `divisibleByFive` function that:
+// - Accepts "numbers" parameter of type "number[]".
+// - Return a new array containing numbers that are divisible by 5.
+// example:
+// divisibleByFive(numbers); // => [10, 20, 25, 35, 40]
+function divisibleByFive(numbers: number[]): number[] {
   // write your code here...
+
+  return []; // replace empty array with what you see is fit
 }
 
 export { greaterThanTwentyFive, divisibleByFive };
