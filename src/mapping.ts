@@ -4,7 +4,7 @@
  */
 const numbers = [10, 13, 20, 25, 38, 35, 40];
 
-// Using `squaredNumbers` function that:
+// `squaredNumbers` function that:
 // - Accepts "numbers" parameter of type "number[]".
 // - Return a new array that contains each number squared.
 // example:
@@ -15,7 +15,7 @@ function squaredNumbers(numbers: number[]): number[] {
   return []; // replace empty array with what you see is fit
 }
 
-// Using `doubledNumbers` function that:
+// `doubledNumbers` function that:
 // - Accepts "numbers" parameter of type "number[]".
 // - Return a new array that contains each number multiplied by 2.
 // example:

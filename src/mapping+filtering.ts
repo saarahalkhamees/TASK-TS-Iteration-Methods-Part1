@@ -4,7 +4,7 @@
  */
 const numbers = [10, 13, 20, 25, 38, 35, 40];
 
-// Using `filteredAndSquared` function that:
+// `filteredAndSquared` function that:
 // - Accepts "numbers" parameter of type "number[]".
 // - Return an array containing the squares of all numbers that are 20 or greater.
 // example:
@@ -15,7 +15,7 @@ function filteredAndSquared(numbers: number[]): number[] {
   return []; // replace empty array with what you see is fit
 }
 
-// Using `filteredAndTripled` function that:
+// `filteredAndTripled` function that:
 // - Accepts "numbers" parameter of type "number[]".
 // - Return an array of numbers, where each number is tripled if it is divisible by 5.
 // example:

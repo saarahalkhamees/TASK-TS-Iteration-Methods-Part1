@@ -1,6 +1,6 @@
 // 🌶️🌶️🌶️ Extra
 
-// 1) Using `logger` function that:
+// `logger` function that:
 // - Accepts "array" parameter which holds elements of the same type
 // - log every element in an array
 // example:
@@ -11,7 +11,7 @@ function logger<T>(array: T[]): void {
   // write your code here...
 }
 
-// 2) using `toCelsius` function that:
+// `toCelsius` function that:
 // - Accepts "temperatures" parameter of type "number[]", representing temperature values in Fahrenheit.
 // - Returns an array containing the converted temperatures in Celsius.
 // - The conversion equation is: C = (F - 32) * (5/9)
@@ -23,7 +23,7 @@ function toCelsius(temperatures: number[]): number[] {
   return []; // replace empty array with what you see is fit
 }
 
-// 3) using `hottestDays` function that:
+// `hottestDays` function that:
 // - Accepts "temperatures" parameter of type "number[]"
 // - Accepts "threshold" parameter of type "number"
 // - Return an array of temperatures that exceed the provided threshold
@@ -36,7 +36,7 @@ function hottestDays(temperatures: number[], threshold: number): number[] {
   return []; // replace empty array with what you see is fit
 }
 
-// 4) Using `logHottestDays` function that:
+// `logHottestDays` function that:
 // - Accepts "temperatures" parameter of type "number[]", representing temperature values in Fahrenheit.
 // - Accepts "threshold" parameter of type "number"
 // - Log temperatures that exceed the threshold to the console IN DEGREES CELSIUS  (hint: you can combine all previous functions)
