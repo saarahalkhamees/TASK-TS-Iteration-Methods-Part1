@@ -1,4 +1,4 @@
-import { filteredAndSquared, filteredAndTripled } from "../mapping+filtering";
+import { filteredAndSquared, filteredAndTripled } from "../mapping_filtering";
 
 describe("Combining Filtering and Mapping", () => {
   describe("filteredAndSquared", () => {
