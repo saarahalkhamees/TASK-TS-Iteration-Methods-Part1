@@ -12,10 +12,16 @@ const numbers = [10, 13, 20, 25, 38, 35, 40];
 function filteredAndSquared(numbers: number[]): number[] {
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  // const numMap = numbers.filter((number: number) => number >= 20);
+  // const filterdMap = numMap.map((number: number) => number * number);
+  // return filterdMap;
+  return numbers
+    .filter((number: number) => number >= 20)
+    .map((number: number) => number * number);
+  // replace empty array with what you see is fit
 }
 
-// `filteredAndTripled` function that:
+// `filteredAnTripled` function that:
 // - Accepts "numbers" parameter of type "number[]".
 // - Return an array of numbers, where each number is tripled if it is divisible by 5.
 // example:
@@ -23,7 +29,11 @@ function filteredAndSquared(numbers: number[]): number[] {
 function filteredAndTripled(numbers: number[]): number[] {
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  return numbers
+    .filter((number: number) => number % 5 === 0)
+    .map((number: number) => number * 3);
+
+  // replace empty array with what you see is fit
 }
 
 export { filteredAndSquared, filteredAndTripled };
