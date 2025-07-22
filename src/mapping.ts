@@ -12,7 +12,7 @@ const numbers = [10, 13, 20, 25, 38, 35, 40];
 function squaredNumbers(numbers: number[]): number[] {
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  return numbers.map((number: number) => number * number); // replace empty array with what you see is fit
 }
 
 // `doubledNumbers` function that:
@@ -23,7 +23,7 @@ function squaredNumbers(numbers: number[]): number[] {
 function doubledNumbers(numbers: number[]): number[] {
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  return numbers.map((number: number) => number * 2); // replace empty array with what you see is fit
 }
 
 export { squaredNumbers, doubledNumbers };
